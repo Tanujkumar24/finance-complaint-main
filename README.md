@@ -1,4 +1,41 @@
 # Finance-Complaint 
+Problem Statement
+
+```bash
+Complaints can give us insights into problems people are experiencing in the marketplace and help us to undestand the reason and do necessary modification in exisiting financial product if required.
+```
+Solution Proposed
+```bash
+By understanding existing complaints registered against financial products we can create an ML model that can help us to identify newly registered complaints whether they are problematic or not and accordingly company can take quick action to resolve the issue, and satisfy the customer's need.
+
+The problem is to identify registered complaint will be disputed by customer or not.
+```
+
+Tech Stack Used
+```bash
+Python
+PySpark
+PySpark ML
+Airflow as Scheduler
+MongoDB.
+```
+Infrastructure Required.
+```bash
+GCP Compute Engine
+S3 Bucket
+Artifact Registry
+```
+
+Dashboarding
+```bash
+Grafana
+Prometheus
+Node Exporter
+Promtail
+Loki
+```
+
+
 ## Deployment Setup
 
 ```yaml
